@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-gold: #D4AF37;
+  --color-dark: #050505;
+  --color-surface: #0a0a0a;
+}
+
+@layer base {
+  body {
+    @apply bg-dark text-white font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+}
+
+@utility glass {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
+
+@utility bento-card {
+  @apply glass rounded-3xl p-8 transition-all duration-500 hover:bg-white/10;
+}

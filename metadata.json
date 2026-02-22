@@ -1,0 +1,7 @@
+{
+  "name": "Nevorento Pizzaria - Projeto Conceitual",
+  "description": "Projeto conceitual de uma pizzaria artesanal italiana premium. Desenvolvido para fins de portfólio.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
